@@ -212,7 +212,7 @@ object Ksegmentation3 {
      t.groupBy("Cluster").sum("Daycharge","NightCharge").show(7)
 
 
-t.saveToEs("test_18_04/segmentation")
+//t.saveToEs("test_18_04/segmentation")
 
 /*
     t.filter("Cluster =0").show(5)
