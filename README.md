@@ -1,1 +1,1 @@
-# EKSegmentation
+# customers_segmentation
