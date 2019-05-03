@@ -98,7 +98,7 @@ object Ksegmentation3 {
 
 
     Logger.getLogger("org").setLevel(Level.ERROR)
-
+/*
     def convertStringToDateTime(time: String): Option[DateTime] = {
       val pattern = """^(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}).*$""".r
       time match {
@@ -117,6 +117,7 @@ object Ksegmentation3 {
     val dateTimeFormat = DateTimeFormat.forPattern("dd/MM/YY")
 
     val format = new java.text.SimpleDateFormat("yyyy-MM-dd")
+    */
     val data = sc.textFile("src/main/ressources/callsdatawithDate (2).csv").toDS()
 
 
