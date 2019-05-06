@@ -187,9 +187,9 @@ object Ksegmentation3 {
   //  kMeansModel.clusterCenters.foreach(println)
 
 
-    kMeansModel.save(sc,"src/main/ressources/seg43")
+    kMeansModel.save(sc,"src/main/ressources/seg44")
 
-    val model=KMeansModel.load(sc,"src/main/ressources/seg43")
+    val model=KMeansModel.load(sc,"src/main/ressources/seg44")
 
     // val resultRDD = rowsRDD.map { r => (r._1, model.predict(Vectors.dense(r._5, r._6, r._7, r._8, r._9, r._10))) }
 
