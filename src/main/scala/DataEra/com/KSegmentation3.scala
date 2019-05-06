@@ -43,6 +43,7 @@ object Ksegmentation3 {
     .set("es.write.operation","index")
    // .set("es.mapping.id","id")
     .set("spark.cores.max", "2")
+    .set("spark.testing.memory", "2147480000")
 
 
   val sc = new SparkContext(sparkConf)
